@@ -17,6 +17,8 @@ const Navbarr = () => {
           <Nav className="me-auto">
             <NavDropdown title="Đặt lịch hẹn" id="basic-nav-dropdown">
               <NavDropdown.Item href="/team">Đặt lịch hẹn</NavDropdown.Item>
+              <NavDropdown.Item href="/team">Danh sách lịch hẹn</NavDropdown.Item>
+
               <NavDropdown.Item href="/quytrinh">
                 Danh sách tái khám
               </NavDropdown.Item>
@@ -34,7 +36,7 @@ const Navbarr = () => {
             </NavDropdown>
 
             <NavDropdown title="Thiết lập" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/pathological1">
+              <NavDropdown.Item href="/medicine">
                 Đăng ký thuốc
               </NavDropdown.Item>
               <NavDropdown.Item href="/pathological1">
@@ -58,9 +60,7 @@ const Navbarr = () => {
 
           <Nav>
             <NavDropdown title="Tên user" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/pathological1">
-                Ghi chú
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/pathological1">Ghi chú</NavDropdown.Item>
               <NavDropdown.Item href="/pathological1">
                 Thông tin chung
               </NavDropdown.Item>
@@ -75,11 +75,13 @@ const Navbarr = () => {
                 Đăng xuất
               </NavDropdown.Item>
               <NavDropdown.Item href="/pathological1">
-               Thông tin phần mềm
+                Thông tin phần mềm
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+        
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>
   );
