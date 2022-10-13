@@ -11,7 +11,7 @@ import Tabs from "react-bootstrap/Tabs";
 import CloseButton from "react-bootstrap/CloseButton";
 import { FaPlusCircle } from "react-icons/fa";
 import { FaRedoAlt } from "react-icons/fa";
-import MedicineModal from "../modal/MedicineModal";
+import MedicineModal from "./MedicineModal";
 
 const Medicine = () => {
   const [key, setKey] = useState("profile");

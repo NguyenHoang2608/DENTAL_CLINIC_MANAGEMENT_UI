@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { FaPlusCircle } from "react-icons/fa";
-import MedicineForm from "../form/MedicineForm";
+import MedicineForm from "./MedicineForm";
 const MedicineModal = () => {
   const [show, setShow] = useState(false);
 
